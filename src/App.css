@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.app-container{
+  width: 1020px;
+}
+
+.bottom-container{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+.bottom-container > :first-child{
+  width: 40%;
+}
+
+.bottom-container > * {
+  margin-right: 10px;
+  width: 30%;
+}

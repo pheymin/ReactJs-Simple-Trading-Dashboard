@@ -1,0 +1,28 @@
+h6{
+    color: #a7adad;
+}
+
+.summary-container{
+    display: flex;
+}
+
+.summary-card{
+    height: 40px;
+    width: 200px;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+.summary-data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.summary-data *{
+    margin: 5px;
+    padding: 0;
+}

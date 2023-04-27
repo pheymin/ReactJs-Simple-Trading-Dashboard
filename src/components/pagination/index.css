@@ -1,0 +1,22 @@
+button{
+    background-color: #fff;
+    border: #eeeeee 1px solid;
+    margin-right: 5px;
+    border-radius: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:active,
+button:focus{
+    background-color: #022b97;
+    color: #fff;
+}
+
+.arrow{
+    border: none;
+}
+
+.pagination{
+    margin: 10px 0;
+}
