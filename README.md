@@ -25,7 +25,7 @@ This project is a **Simple Trading Dashboard** built using **ReactJS**. It showc
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/simple-trading-dashboard.git
+   git clone https://github.com/pheymin/ReactJs-Simple-Trading-Dashboard.git
    cd simple-trading-dashboard
 
 2. Install the dependencies using Yarn:
